@@ -7,12 +7,19 @@ const routes = [
     name: 'Day1',
     component: () => import('../views/Day1.vue'),
   },
-  {
-    path: '/day2',
-    name: 'Day2',
-    component: () => import('../views/Day2.vue'),
-  },
 ];
+
+const handleAddRoute = () => {
+  for (let i = 2; i <= 10; i++) {
+    routes.push({
+      path: `/day${i}`,
+      name: `Day${i}`,
+      component: () => import(`../views/Day${i}.vue`),
+    });
+  }
+};
+
+handleAddRoute();
 
 const router = createRouter({
   history: createWebHistory(),

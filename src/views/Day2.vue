@@ -1,5 +1,5 @@
 <template>
-  <h2 class="mt-[200px] text-4xl font-bold text-center mb-20">
+  <h2 class="mt-[300px] text-4xl font-bold text-center mb-20">
     Xmas Joke Generator
   </h2>
   <div

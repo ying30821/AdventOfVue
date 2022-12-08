@@ -18,5 +18,5 @@
 <script setup>
 import { ref } from 'vue';
 
-const totalDay = ref(2);
+const totalDay = ref(10);
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center pt-20">
+  <div class="flex flex-col items-center justify-center mt-[300px]">
     <h2 class="mb-5 text-4xl font-bold">Gift Search App</h2>
     <input
       v-model="searchbar"
