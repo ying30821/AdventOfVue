@@ -10,7 +10,7 @@ const routes = [
 ];
 
 const handleAddRoute = () => {
-  for (let i = 2; i <= 10; i++) {
+  for (let i = 2; i <= 24; i++) {
     routes.push({
       path: `/day${i}`,
       name: `Day${i}`,

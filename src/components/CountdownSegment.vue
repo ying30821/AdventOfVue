@@ -4,7 +4,7 @@
       <transition>
         <span
           :key="number"
-          class="-translate-x-1/2 text-3xl text-emerald-500 absolute top-0 left-[50%]"
+          class="absolute top-0 text-3xl -translate-x-1/2 text-emerald-500 left-1/2"
         >
           {{ number }}
         </span>

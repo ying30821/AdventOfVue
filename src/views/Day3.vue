@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-[300px] flex justify-center">
+  <section class="flex flex-col justify-center items-center">
     <div
       class="flex flex-col items-center p-4 space-y-5 bg-white rounded-md shadow-lg"
     >
@@ -51,20 +51,3 @@ const secondsRounded = computed(() => {
   return Math.floor(seconds.value);
 });
 </script>
-
-<style>
-.v-enter-active,
-.v-leave-active {
-  transition: all 0.5s ease;
-}
-.v-enter-from {
-  transform: translateY(-100%);
-}
-.v-leave-to {
-  transform: translateY(100%);
-}
-.v-enter-to,
-.v-leave-from {
-  transform: translateY(0px);
-}
-</style>
